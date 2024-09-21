@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 24px;
+    background-image: url("paperboard-texture.jpg");
+}
+
+h1 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 4rem;
+    border-bottom: 0.125rem solid #CEA37E;
+    background-image: linear-gradient(#F0E4D9, #EBDACA);
+    padding: 1rem;
+    margin-top: 0.75em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 2rem;
+    margin-top: 0.75em;
+    margin-bottom: 0.25em;
+}
+
+p {
+    margin-bottom: 0.75em;
+}
+
+.profile-photo {
+float: right;
+margin: 0 0 10px 10px;
+box-shadow: 0.5rem 0.5rem 2.5rem #010101;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    table-layout: fixed;
+    width: 900px;
+    background-color: white;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    width: 120px;
+    color: white;
+    background-color: #010101;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.poem {
+    text-align: center;
+    font-style: italic;
+}
+
+.cell-work {
+    color: white;
+    background-color: #6E56CF;
+    border-color: #30265F;
+    border-style: solid;
+}
+
+.cell-commute {
+    background-color: #D6409F;
+    border-color: #651248;
+    border-style: solid;
+}
+
+.cell-study {
+    background-color: #8dda75;
+    border-color: #275D38;
+    border-style: solid;
+}
+
+.cell-gym {
+    background-color: #E5484D;
+    border-color: #64181B;
+    border-style: solid;
+}
+
+.cell-web-programming {
+    background-color: #FF9436;
+    border-color: #5A2D03;
+    border-style: solid;
+}
+
+.cell-operating-systems-theory {
+    background-color: #FDD808;
+    border-color: #a36a05;
+    border-style: solid;
+}
+
+.cell-computer-networks {
+    background-color: #49B960;
+    border-color: #193E20;
+    border-style: solid;
+}
+
+.cell-python-software-dev {
+    background-color: #709DFF;
+    border-color: #122B6A;
+    border-style: solid;
+}
+
+.cell-time {
+    background-color: lightgray;
+}
+
+.main-wrapper {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #DCBC9F;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    padding-top: 5rem;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 8px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-content {
+    animation: zoomIn 0.3s;
+}
+
+@keyframes zoomIn {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
